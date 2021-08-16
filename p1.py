@@ -1,13 +1,10 @@
-a=[2,3,"43",5,6,"45",7,"A1","11"]
-b=[]
-i=0
-while i<len(a):
-    if type (a[i])==str:
-        b.append(a[i])
-    i=i+1
-print(b)
+# a=0
+# while a<4:
+#     print(" "+(chr(65+a)+" ")*(a+1))
+#     a=a+1
 
-
-# for i in a:
-#     if type(i)==str:
-#         print(i)
+# n=int(input("enter the number"))
+# i=0
+# while i<n:
+#     print(""+(chr(65+i)+" ")*(i+1))
+#     i=i+1
